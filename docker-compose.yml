@@ -26,4 +26,3 @@ services:
             - db
         volumes:
             - .:/var/www
-            - logs:/var/www/logs
