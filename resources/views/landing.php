@@ -37,6 +37,9 @@
         <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
         <!-- shortcodes -->
         <link href="assets/css/shortcodes/shortcodes.css" rel="stylesheet">
+        <!-- sweetalert -->
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.css" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
         <!-- Style CSS -->
         <link href="style.css" rel="stylesheet">
 
@@ -48,15 +51,19 @@
         <link rel="stylesheet" type="text/css" href="assets/revolution/css/navigation.css">
 
 
+
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
           <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
           <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.min.js"></script>
+        <script src="app.js"></script>
     </head>
 
-    <body id="top" class="has-header-search">
+    <body ng-app="hspc" ng-controller="hspc.controller as $ctrl" id="top" class="has-header-search">
 
 
         <!-- Top bar -->
@@ -658,12 +665,12 @@
                 	<div class="booking-form-wrapper">
 
                 		<h3 style="color: white">Registration Form</h3>
-                    	<form name="contact-form" id="contactForm" class="clearfix" action="/register" method="POST">
+                    	<form name="contact-form" class="clearfix" ng-submit="$ctrl.register($event)">
 
 	                      <div class="row">
 	                        <div class="col-md-6">
 	                          <div class="input-field">
-	                            <input type="text" name="name" class="validate" id="name">
+	                            <input type="text" name="name" class="validate" id="name" ng-model="$ctrl.registrationForm.name">
 	                            <label for="name" class="">Name</label>
 	                          </div>
 
@@ -671,7 +678,7 @@
 
 	                        <div class="col-md-6">
 	                          <div class="input-field">
-	                            <input id="phone" name="phone" type="tel" class="validate">
+	                            <input id="phone" name="phone" type="tel" class="validate" ng-model="$ctrl.registrationForm.phone">
 	                            <label for="phone" class="">Phone Number</label>
 	                          </div>
 	                        </div><!-- /.col-md-6 -->
@@ -680,14 +687,14 @@
 
                           <div class="input-field">
                             <label class="sr-only" for="email">Email</label>
-                            <input id="email" type="email" name="email" class="validate">
+                            <input id="email" type="email" name="email" class="validate" ng-model="$ctrl.registrationForm.email">
                             <label for="email" data-error="wrong" data-success="right" class="">Email</label>
                           </div>
 
 	                      <div class="row">
 	                        <div class="col-md-6">
 	                          <div class="input-field">
-	                            <input type="text" name="grade-level" class="validate" id="name">
+	                            <input type="text" name="grade-level" class="validate" id="name" ng-model="$ctrl.registrationForm.grade_level">
 	                            <label for="name" class="">Grade Level</label>
 	                          </div>
 
@@ -695,7 +702,7 @@
 
 	                        <div class="col-md-6">
 	                          <div class="input-field">
-	                            <input id="skill-level" type="text" name="skill-level" class="validate">
+	                            <input id="skill-level" type="text" name="skill-level" class="validate" ng-model="$ctrl.registrationForm.skill_level">
                                 <label for="skill-level" class="">Skill Level</label>
 	                          </div>
 	                        </div><!-- /.col-md-6 -->
@@ -703,7 +710,7 @@
                           </div><!-- /.row -->
                           
                           <div class="input-field">
-                              <input id="prg-lng" name="programming-language" type="text" class="validate">
+                              <input id="prg-lng" name="programming-language" type="text" class="validate" ng-model="$ctrl.registrationForm.programming_language">
                               <label for="prg-lng">What programming language will you be using?</label>
                           </div>
 
@@ -898,6 +905,10 @@
         <script type="text/javascript" src="assets/revolution/js/extensions/revolution.extension.migration.min.js"></script>
         <script type="text/javascript" src="assets/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
         
+    
+    
+    
+    
     </body>
   
 </html>
