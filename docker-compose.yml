@@ -3,16 +3,27 @@ version: '2'
 volumes:
     logs:
         driver: local
+    mysql_d:
 
 services:
-    slim:
-        image: php:7-alpine
-        working_dir: /var/www/public
-        command: php -S 0.0.0.0:8080
+    db:
+        image: mysql
+        restart: always
         environment:
-            docker: "true"
+            MYSQL_DATABASE: uab_hspc
+            MYSQL_USER: root
+            MYSQL_PASSWORD: password
+            MYSQL_ROOT_PASSWORD: password
+        volumes:
+            - mysql_d:/var/lib/mysql
+    www:
+        build: ./
+        working_dir: /var/www
+        command: php artisan serve --host=0.0.0.0 --port=80
         ports:
-            - 8080:8080
+            - 8080:80
+        links:
+            - db
         volumes:
             - .:/var/www
             - logs:/var/www/logs
