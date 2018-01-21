@@ -87,10 +87,10 @@
               <div class="col-md-6 text-right">
                 <ul class="topbar-cta no-margin">
                   <li class="mr-20">
-                    <a><i class="material-icons mr-10">&#xE0B9;</i>chris.rocco7@gmail.com</a>
+                    <a><i class="material-icons mr-10">&#xE0B9;</i>admin@example.com</a>
                   </li>
                   <li>
-                    <a><i class="material-icons mr-10">&#xE0CD;</i>(205) 639 6666</a>
+                    <a><i class="material-icons mr-10">&#xE0CD;</i>+1 (205) 123 4567</a>
                   </li>
                 </ul>
               </div>
@@ -751,10 +751,9 @@
                         <div class="col-md-3 widget">
                             <h2 class="white-text">Contact Us</h2>
                             <address style="color: white; font-size: 14px">
-                                <b> Dr. Chris Rocco<b> - chris77@uab.edu <br>
-                                <b> Dr. Chris Rocco<b> - chris77@uab.edu <br>
-                                <b> Dr. Chris Rocco<b> - chris77@uab.edu <br>
-                                <b> Dr. Chris Rocco<b> - chris77@uab.edu <br>
+                                <b> Chris Rocco<b> - chris77@uab.edu <br>
+                                <b> Organizer 2<b> - example@uab.edu <br>
+                                <b> Organizer 3<b> - example@uab.edu <br>
                             </address>
                         </div><!-- /.col-md-3 -->
 

@@ -1,12 +1,12 @@
 
 (function(){
     var defaultForm = {
-        name: "Chris Rocco",
-        phone: "205 639 6666",
-        email: "chris.rocco7@gmail.com",
-        skill_level: "master",
-        grade_level: "junior",
-        programming_language: "Java"
+        name: "",
+        phone: "",
+        email: "",
+        skill_level: "",
+        grade_level: "",
+        programming_language: ""
     };
 
     angular.module("hspc", [])
