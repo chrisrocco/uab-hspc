@@ -1,28 +1,23 @@
 version: '2'
 
 volumes:
-    logs:
-        driver: local
     mysql_d:
 
 services:
     db:
         image: mysql
         restart: always
-        environment:
-            MYSQL_DATABASE: uab_hspc
-            MYSQL_USER: root
-            MYSQL_PASSWORD: password
-            MYSQL_ROOT_PASSWORD: password
+        env_file:
+            - .env.mysql
         volumes:
             - mysql_d:/var/lib/mysql
-    www:
+    laravel:
         build: ./
-        working_dir: /var/www
-        command: php artisan serve --host=0.0.0.0 --port=80
+        env_file:
+            - .env
         ports:
             - 8080:80
         links:
             - db
-        volumes:
-            - .:/var/www
+#        volumes:
+#            - .:/var/www

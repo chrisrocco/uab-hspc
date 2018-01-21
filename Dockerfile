@@ -1,10 +1,10 @@
-FROM php:7.0-fpm
-RUN apt-get update && apt-get install -y \
-		libfreetype6-dev \
-		libjpeg62-turbo-dev \
-		libmcrypt-dev \
-		libpng-dev \
-		libcurl3-dev \
-	&& docker-php-ext-install -j$(nproc) iconv mcrypt pdo curl \
-	&& docker-php-ext-configure gd --with-freetype-dir=/usr/include/ --with-jpeg-dir=/usr/include/ \
-	&& docker-php-ext-install -j$(nproc) gd
+FROM lamp
+
+COPY 000-default.conf /etc/apache2/sites-available/000-default.conf
+
+COPY --chown=www-data:www-data . /var/www/hspc.cs.uab.edu
+
+EXPOSE 80
+
+RUN a2enmod rewrite
+CMD service mysql start && apache2ctl -D FOREGROUND
