@@ -226,7 +226,7 @@
                     data-splitout="none" 
                     data-responsive_offset="on"
                     style="z-index: 6; white-space: nowrap;">
-                    <h3 style="font-size: 23px; color: white; font-weight: bold">March 18, 10:30am - 4:00pm, 1300 University Boulevard</h4>
+                    <h3 style="font-size: 23px; color: white; font-weight: bold">February 17, 10:30am - 4:00pm, 1300 University Boulevard</h4>
                     The High School Programming Contest (HSPC) hosted by UAB
                     <br/> brings talented students from high schools throughout Alabama to the UAB campus to
                     <br/> participate in an organized competition.
@@ -461,7 +461,7 @@
 
                                 <img class="alignright" src="assets/img/working_man.png" alt="">
 
-                                <p>The State of Alabama High School Programming Contest (HSPC) hosted by UAB brings talented students 
+                                <p>The High School Programming Contest (HSPC) hosted by UAB brings talented students
                                     from high schools throughout Alabama to the UAB campus to participate in an organized competition. 
                                     Students individually compete to demonstrate their programming skills and problem solving abilities 
                                     by attempting to solve six programming problems within a three hour period. Schools that have three 
@@ -792,25 +792,23 @@
                                 Birmingham, Alabama 35294-1170 <br>
                                 +1 (205) 934 2213
                             </address>
-                        </div><!-- /.col-md-3 -->
+                        </div>
 
                         <div class="col-md-3 widget">
                             <h2 class="white-text">Contact Us</h2>
                             <address style="color: white; font-size: 14px">
-                                <b> Chris Rocco<b> - chris77@uab.edu <br>
-                                <b> Organizer 2<b> - example@uab.edu <br>
-                                <b> Organizer 3<b> - example@uab.edu <br>
+                                <b> Pirkelbauer, Peter<b> - pirkelbauer@uab.edu <br>
                             </address>
                         </div><!-- /.col-md-3 -->
 
                         <div class="col-md-3 widget">
-                            <h2 class="white-text">Imporant links</h2>
+                            <!--<h2 class="white-text">Imporant links</h2>
 
                             <ul class="footer-list">
                                 <li><a href="#">History of the UAB HSPC</a></li>
                                 <li><a href="#">Team Acknowledgement</a></li>
                                 <li><a href="#">UAB News</a></li>
-                            </ul>
+                            </ul>-->
                         </div><!-- /.col-md-3 -->
 
                         <div class="col-md-3 widget clearfix">
