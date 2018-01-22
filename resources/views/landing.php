@@ -74,23 +74,23 @@
               <div class="col-md-6">
                 <!-- Social Icon -->
                 <ul class="list-inline social-top tt-animate btt">
-                  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                  <!--<li><a href="#"><i class="fa fa-facebook"></i></a></li>
                   <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                   <li><a href="#"><i class="fa fa-tumblr"></i></a></li>
                   <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
                   <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
                   <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                  <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                  <li><a href="#"><i class="fa fa-rss"></i></a></li>-->
                 </ul>
               </div>
 
               <div class="col-md-6 text-right">
                 <ul class="topbar-cta no-margin">
                   <li class="mr-20">
-                    <a><i class="material-icons mr-10">&#xE0B9;</i>admin@example.com</a>
+                    <a><i class="material-icons mr-10">&#xE0B9;</i>pirkelbauer@uab.edu</a>
                   </li>
                   <li>
-                    <a><i class="material-icons mr-10">&#xE0CD;</i>+1 (205) 123 4567</a>
+                    <a><i class="material-icons mr-10">&#xE0CD;</i>(205) 934-8532</a>
                   </li>
                 </ul>
               </div>
@@ -227,9 +227,9 @@
                     data-responsive_offset="on"
                     style="z-index: 6; white-space: nowrap;">
                     <h3 style="font-size: 23px; color: white; font-weight: bold">March 18, 10:30am - 4:00pm, 1300 University Boulevard</h4>
-                    The State of Alabama High School Programming Contest (HSPC) hosted by UAB 
-                    <br/> brings talented students from high schools throughout Alabama to the UAB campus to 
-                    <br/> participate in an organized competition. 
+                    The High School Programming Contest (HSPC) hosted by UAB
+                    <br/> brings talented students from high schools throughout Alabama to the UAB campus to
+                    <br/> participate in an organized competition.
                 </div>
 
                 <!-- LAYER NR. 7 -->
@@ -429,7 +429,7 @@
 
               <div class="text-center mb-80">
                   <h2 class="section-title">What is the UAB HS Programming Challenge? </h2>
-                  <p style="font-size: 20px">Proudly presented by UAB and the National Security Agency (NSA). </p>
+                  <p style="font-size: 20px">Proudly presented by the University of Alabama at Birmingham </p>
               </div>
 
               <div class="vertical-tab">
@@ -541,8 +541,11 @@
               <div class="mb-80 text-center">
                   <h2 class="font-30 white-text text-extrabold text-uppercase">What can I win?!</h2>
                   
-                  <p class="white-text width-60 mb-30" style="font-size: 20px">
+                  <!--<p class="white-text width-60 mb-30" style="font-size: 20px">
                       Up for grabs will be <b>5</b> individual prizes, <b>2</b> team prizes, and <b>Grace Hopper awards</b> to female contestants!
+                  </p>-->
+                  <p class="white-text width-60 mb-30" style="font-size: 20px">
+                      <em>To be Announced.</em>
                   </p>
               </div><!-- /.hero-intro -->
             </div><!-- /.container -->
@@ -628,11 +631,11 @@
                 <div class="col-md-6 white-text">
                   <h2 class="font-40 mb-30 white-text line-height-50">
                       <span class="text-bold brand-color">Hurry Up!</span> 
-                        Registration Deadline is <b>-----</b></h2>
+                        Registration Deadline is <b>February 10</b></h2>
 
-                  <p>Registration fee is <b>-----</b>. Pay by cash or check at venue.
-                    <br/>After <b>-----</b>, 
-                    the registration fee will increase to <b>----</b> </p>
+                  <p>Registration fee is <b>$20</b>. Pay by cash or check at venue.
+                    <br/>After <b>Feb 10</b>,
+                    the registration fee will increase to <b>$30</b> </p>
 
                   <p><b>**NOTE</b> This contest is open to all AL high-school students and advanced junior high students</p>
 					
@@ -685,47 +688,90 @@
 
 	                      </div><!-- /.row -->
 
-                          <div class="input-field">
-                            <label class="sr-only" for="email">Email</label>
-                            <input id="email" type="email" name="email" class="validate" ng-model="$ctrl.registrationForm.email">
-                            <label for="email" data-error="wrong" data-success="right" class="">Email</label>
-                          </div>
-
 	                      <div class="row">
 	                        <div class="col-md-6">
 	                          <div class="input-field">
-	                            <input type="text" name="grade-level" class="validate" id="name" ng-model="$ctrl.registrationForm.grade_level">
+	                            <input type="number" min="8" max="12" name="grade-level" class="validate" id="name" ng-model="$ctrl.registrationForm.grade_level">
 	                            <label for="name" class="">Grade Level</label>
 	                          </div>
-
 	                        </div><!-- /.col-md-6 -->
 
-	                        <div class="col-md-6">
-	                          <div class="input-field">
-	                            <input id="skill-level" type="text" name="skill-level" class="validate" ng-model="$ctrl.registrationForm.skill_level">
-                                <label for="skill-level" class="">Skill Level</label>
-	                          </div>
-	                        </div><!-- /.col-md-6 -->
+                              <div class="col-md-6">
+                                  <div class="input-field">
+                                      <label class="sr-only" for="email">Email</label>
+                                      <input id="email" type="email" name="email" class="validate" ng-model="$ctrl.registrationForm.email">
+                                      <label for="email" data-error="wrong" data-success="right" class="">Email</label>
+                                  </div>
+                              </div>
 
                           </div><!-- /.row -->
-                          
-                          <div class="input-field">
-                              <input id="prg-lng" name="programming-language" type="text" class="validate" ng-model="$ctrl.registrationForm.programming_language">
-                              <label for="prg-lng">What programming language will you be using?</label>
-                          </div>
 
-	                      <button type="submit" name="submit" class="waves-effect waves-light btn pink mt-30">Register Now</button>
+                            <div>
+                                <br/>
+                                <h3 style="color: white">What is your skill level?</h3>
+
+                                <input type="radio" id="sk1" name="skill-level" ng-model="$ctrl.registrationForm.skill_level" value="Pro">
+                                <label for="sk1">Pro</label>
+
+                                <input type="radio" id="sk2" name="skill-level" ng-model="$ctrl.registrationForm.skill_level" value="Intermediate">
+                                <label for="sk2">Intermediate</label>
+
+                                <input type="radio" id="sk3" name="skill-level" ng-model="$ctrl.registrationForm.skill_level" value="Beginner">
+                                <label for="sk3">Beginner</label>
+                            </div>
+                          
+                              <div>
+                                  <br/>
+                                  <h3 style="color: white">What programming language will you use?</h3>
+
+                                  <input type="radio" id="pgLng1" name="programming-language" ng-model="$ctrl.registrationForm.programming_language" value="Java">
+                                  <label for="pgLng1">Java</label>
+
+                                  <input type="radio" id="pgLng2" name="programming-language" ng-model="$ctrl.registrationForm.programming_language" value="C++">
+                                  <label for="pgLng2">C++</label>
+
+                                  <input type="radio" id="pgLng3" name="programming-language" ng-model="$ctrl.registrationForm.programming_language" value="Python">
+                                  <label for="pgLng3">Python</label>
+
+                                  <input type="radio" id="pgLng4" name="programming-language" ng-model="$ctrl.registrationForm.programming_language" value="C#">
+                                  <label for="pgLng4">C#</label>
+                              </div>
+
+                            <div class="input-field">
+                                <input type="text" name="other-language" class="validate" id="other-language" ng-model="$ctrl.registrationForm.other_language">
+                                <label for="other-language" class="">If you'd rather use another language, list it here:</label>
+                            </div>
+
+                            <div>
+                                <br/>
+                                <h3 style="color: white">What IDE would you like to use? </h3>
+
+                                <input type="radio" id="ide1" name="ide" ng-model="$ctrl.registrationForm.ide" value="Eclipse">
+                                <label for="ide1">Eclipse</label>
+
+                                <input type="radio" id="ide2" name="ide" ng-model="$ctrl.registrationForm.ide" value="jGrasp">
+                                <label for="ide2">jGrasp</label>
+
+                                <input type="radio" id="ide3" name="ide" ng-model="$ctrl.registrationForm.ide" value="Atom">
+                                <label for="ide3">Atom</label>
+
+                                <input type="radio" id="ide4" name="ide" ng-model="$ctrl.registrationForm.ide" value="IntelliJ">
+                                <label for="ide4">IntelliJ</label>
+                            </div>
+
+                            <div class="input-field">
+                                <input type="text" name="other-ide" class="validate" id="other-ide" ng-model="$ctrl.registrationForm.other_ide">
+                                <label for="other-ide" class="">If you prefer another IDE, list it here:</label>
+                            </div>
+
+
+                            <button type="submit" name="submit" class="waves-effect waves-light btn pink mt-30">Register Now</button>
                     	</form>
                 	</div>
                 </div><!-- /.col-md-6 -->
               </div><!-- /.row -->
             </div><!-- /.container -->
         </section>
-
-
-
-
-
 
         <!-- FOOTER
         ======================================== -->
@@ -770,13 +816,13 @@
                         <div class="col-md-3 widget clearfix">
                             <h2 class="white-text">Stay in Touch</h2>
                             <ul class="social-link tt-animate ltr">
-                              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                              <!--<li><a href="#"><i class="fa fa-facebook"></i></a></li>
                               <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                               <li><a href="#"><i class="fa fa-tumblr"></i></a></li>
                               <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
                               <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
                               <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                              <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                              <li><a href="#"><i class="fa fa-rss"></i></a></li>-->
                             </ul>
                         </div><!-- /.col-md-3 -->
 

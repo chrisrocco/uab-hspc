@@ -9,3 +9,7 @@ Route::post('/register', function(Request $request){
     Registrations::create($request->all());
     return Registrations::all();
 });
+
+Route::get('/roster', function(Request $request){
+    return Registrations::all();
+});

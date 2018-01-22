@@ -1,10 +1,6 @@
-/*
-Template Name: materialize
-Author: TrendyTheme
-Version: 1.5
-*/
+(function () {
 
-;(function () {
+    var EVENT_DATE = "17 feb 2018 12:00:00"; // used for countdown timer
 
     "use strict"; // use strict to start
 
@@ -212,7 +208,7 @@ Version: 1.5
         /* === CountDown === */
         if ($('.countdown').length > 0) {
             $(".countdown").countdown({
-                date: "24 feb 2018 12:00:00",
+                date: EVENT_DATE,
                 format: "on"
             }, function(){});
         }

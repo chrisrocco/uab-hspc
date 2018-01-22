@@ -4,8 +4,9 @@ FROM ubuntu:latest
 RUN apt-get update && \
 	apt-get -y upgrade && \
 	apt-get -y install apache2 libapache2-mod-php7.0 \
-	php7.0 php7.0-mysql php7.0-mbstring \
-	curl
+	php7.0 php7.0-mysql php7.0-mbstring php7.0-xml php-curl \
+	curl \
+	mysql-client
 
 # Enable Apache modules
 RUN a2enmod php7.0 && a2enmod rewrite
@@ -22,4 +23,4 @@ RUN chmod -R ug+rwx storage bootstrap/cache
 COPY vhost.conf /etc/apache2/sites-available/000-default.conf
 
 # Start Apache
-CMD apache2ctl -D FOREGROUND
+ENTRYPOINT ["sh", "./start.sh"]

@@ -12,6 +12,9 @@ class Registrations extends Model
         'email',
         'grade_level',
         'skill_level',
-        'programming_language'
+        'programming_language',
+        'other_programming_language',
+        'ide',
+        'other_ide'
     ];
 }
