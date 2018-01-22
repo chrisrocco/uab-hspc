@@ -592,19 +592,19 @@
                                         </tr>
                                         <tr>
                                             <td>Welcome and Orientation for HSPC</td>
-                                            <td>TBA</td>
+                                            <td>Campbell Hall</td>
                                             <td>11:30 am</td>
                                             <td>11:45 am</td>
                                         </tr>
                                         <tr>
                                             <td>HSPC Contest</td>
-                                            <td>TBA</td>
+                                            <td>Campbell Hall</td>
                                             <td>12:00 pm</td>
                                             <td>3:00 pm</td>
                                         </tr>
                                         <tr>
                                             <td>Award Presentation</td>
-                                            <td>TBA</td>
+                                            <td>Campbell Hall</td>
                                             <td>3:15 pm</td>
                                             <td>4:00 pm</td>
                                         </tr>
@@ -794,7 +794,7 @@
                             </address>
                         </div>
 
-                        <div class="col-md-3 widget">
+                        <div class="col-md-6 widget">
                             <h2 class="white-text">Contact Us</h2>
                             <address style="color: white; font-size: 14px">
                                 <b> Pirkelbauer, Peter<b> - pirkelbauer@uab.edu <br>
