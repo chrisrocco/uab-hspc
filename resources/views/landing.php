@@ -811,18 +811,18 @@
                             </ul>-->
                         </div><!-- /.col-md-3 -->
 
-                        <div class="col-md-3 widget clearfix">
+                        <!--<div class="col-md-3 widget clearfix">
                             <h2 class="white-text">Stay in Touch</h2>
                             <ul class="social-link tt-animate ltr">
-                              <!--<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                               <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                               <li><a href="#"><i class="fa fa-tumblr"></i></a></li>
                               <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
                               <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
                               <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                              <li><a href="#"><i class="fa fa-rss"></i></a></li>-->
+                              <li><a href="#"><i class="fa fa-rss"></i></a></li>
                             </ul>
-                        </div><!-- /.col-md-3 -->
+                        </div>-->
 
                     </div><!-- /.row -->
                 </div><!-- /.container -->
