@@ -731,7 +731,7 @@
                                   <label for="pgLng2">C++</label>
 
                                   <input type="radio" id="pgLng3" name="programming-language" ng-model="$ctrl.registrationForm.programming_language" value="Python">
-                                  <label for="pgLng3">Python</label>
+                                  <label for="pgLng3">Python 3</label>
 
                                   <input type="radio" id="pgLng4" name="programming-language" ng-model="$ctrl.registrationForm.programming_language" value="C#">
                                   <label for="pgLng4">C#</label>
@@ -794,7 +794,7 @@
                             </address>
                         </div>
 
-                        <div class="col-md-6 widget">
+                        <div class="col-md-3 widget">
                             <h2 class="white-text">Contact Us</h2>
                             <address style="color: white; font-size: 14px">
                                 <b> Pirkelbauer, Peter<b> - pirkelbauer@uab.edu <br>
@@ -802,27 +802,23 @@
                         </div><!-- /.col-md-3 -->
 
                         <div class="col-md-3 widget">
-                            <!--<h2 class="white-text">Imporant links</h2>
-
+                            <h2 class="white-text">Last Year's Questions</h2>
                             <ul class="footer-list">
-                                <li><a href="#">History of the UAB HSPC</a></li>
-                                <li><a href="#">Team Acknowledgement</a></li>
-                                <li><a href="#">UAB News</a></li>
-                            </ul>-->
-                        </div><!-- /.col-md-3 -->
-
-                        <!--<div class="col-md-3 widget clearfix">
-                            <h2 class="white-text">Stay in Touch</h2>
-                            <ul class="social-link tt-animate ltr">
-                              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                              <li><a href="#"><i class="fa fa-tumblr"></i></a></li>
-                              <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                              <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                              <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                              <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                                <li><a target="_blank" href="documents/2005-problems.pdf">2005 Contest Problems</a></li>
+                                <li><a target="_blank" href="documents/2006-problems.pdf">2006 Contest Problems</a></li>
+                                <li><a target="_blank" href="documents/2007-problems.pdf">2007 Contest Problems</a></li>
+                                <li><a target="_blank" href="documents/2008-problems.pdf">2008 Contest Problems</a></li>
+                                <li><a target="_blank" href="documents/2009-problems.pdf">2009 Contest Problems</a></li>
                             </ul>
-                        </div>-->
+                        </div>
+                        <div class="col-md-3 widget">
+                            <ul class="footer-list">
+                                <li><a target="_blank" href="documents/AlabamaHSPC_2010_Problems.pdf">2010 Contest Problems</a></li>
+                                <li><a target="_blank" href="documents/2014_Problems.pdf">2014 Contest Problems</a></li>
+                                <li><a target="_blank" href="documents/hspc2015.pdf">2015 Contest Problems</a></li>
+                                <li><a target="_blank" href="documents/hspc2016.pdf">2016 Contest Problems</a></li>
+                            </ul>
+                        </div>
 
                     </div><!-- /.row -->
                 </div><!-- /.container -->
