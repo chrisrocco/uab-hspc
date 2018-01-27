@@ -817,6 +817,7 @@
                                 <li><a target="_blank" href="documents/2014_Problems.pdf">2014 Contest Problems</a></li>
                                 <li><a target="_blank" href="documents/hspc2015.pdf">2015 Contest Problems</a></li>
                                 <li><a target="_blank" href="documents/hspc2016.pdf">2016 Contest Problems</a></li>
+                                <li><a target="_blank" href="documents/2017-problems.pdf">2017 Contest Problems</a></li>
                             </ul>
                         </div>
 
