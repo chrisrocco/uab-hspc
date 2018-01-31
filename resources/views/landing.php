@@ -42,6 +42,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
         <!-- Style CSS -->
         <link href="style.css" rel="stylesheet">
+        <link href="custom.css" rel="stylesheet">
 
 
         <!-- RS5.0 Main Stylesheet -->
@@ -67,7 +68,7 @@
 
 
         <!-- Top bar -->
-        <div class="top-bar light-blue">
+        <div class="top-bar uab-green">
           <div class="container">
             <div class="row">
               <!-- Social Icon -->
@@ -110,7 +111,7 @@
 
                         <!--logo start-->
                         <a href="index.html" class="logo-brand">
-                            <img class="retina" src="assets/img/uab-w-nsa.png" alt="" style="height: 40px" />
+                            <img class="retina" src="assets/img/uab-cs-logo.jpg" alt="" style="height: 80px !important;" />
                         </a>
                         <!--logo end-->
 
@@ -145,7 +146,7 @@
             <li data-transition="fade" data-slotamount="default" data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000" data-thumb="assets/img/banner-1/bg.jpg"  data-rotate="0"  data-fstransition="fade" data-fsmasterspeed="1500" data-fsslotamount="7" data-saveperformance="off"  data-title="materialize Material" data-description="">
 
                 <!-- MAIN IMAGE -->
-                <img src="assets/img/banner-2/bg.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+                <img src="assets/img/banner-1/bg.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
 
 
                 <!-- LAYER NR. 2 -->
@@ -250,7 +251,7 @@
                     data-splitout="none" 
                     data-responsive_offset="on"
                     style="z-index: 7; white-space: nowrap;">
-                    <a href="#register" class="btn btn-lg  waves-effect waves-light">Register Now</a>
+                    <a href="#register" class="btn btn-lg waves-effect uab-gold waves-light">Register Now</a>
                 </div>
 
                 <!-- LAYER NR. 8 -->
@@ -429,7 +430,10 @@
 
               <div class="text-center mb-80">
                   <h2 class="section-title">What is the UAB HS Programming Challenge? </h2>
-                  <p style="font-size: 20px">Proudly presented by the University of Alabama at Birmingham </p>
+                  <p style="font-size: 20px">UAB Computer Science offers innovative, competitive degrees that are
+                      designed for the 21st century workforce and that will prepare you for a
+                      career in a variety of fields. If you like programming and computers,
+                      find out how you can be a part of our program here: <a href="http://www.uab.edu/cas/computerscience/undergraduate-programs">http://www.uab.edu/cas/computerscience/undergraduate-programs</a> </p>
               </div>
 
               <div class="vertical-tab">
@@ -630,7 +634,7 @@
               <div class="row">
                 <div class="col-md-6 white-text">
                   <h2 class="font-40 mb-30 white-text line-height-50">
-                      <span class="text-bold brand-color">Hurry Up!</span> 
+                      <span class="text-bold pink-text">Hurry Up!</span>
                         Registration Deadline is <b>February 10</b></h2>
 
                   <p>Registration fee is <b>$20</b>. Pay by cash or check at venue.
@@ -644,15 +648,15 @@
                     <div class="countdown-wrapper">
                         <ul class="countdown">
                             <li>                    
-                                <span class="days brand-color">00</span>
+                                <span class="days pink-text">00</span>
                                 <p>days</p>
                             </li>
                             <li>
-                                <span class="hours light-blue-text">00</span>
+                                <span class="hours pink-text">00</span>
                                 <p>hours </p>
                             </li>
                             <li>
-                                <span class="minutes green-text">00</span>
+                                <span class="minutes pink-text">00</span>
                                 <p>minutes</p>
                             </li>
                             <li>
@@ -765,7 +769,7 @@
                             </div>
 
 
-                            <button type="submit" name="submit" class="waves-effect waves-light btn pink mt-30">Register Now</button>
+                            <button type="submit" name="submit" class="waves-effect waves-light btn uab-gold mt-30">Register Now</button>
                     	</form>
                 	</div>
                 </div><!-- /.col-md-6 -->
@@ -776,9 +780,9 @@
         <!-- FOOTER
         ======================================== -->
         <footer id="contact" class="footer footer-one">
-            <div class="primary-footer brand-bg">
+            <div class="primary-footer brand-bg uab-green">
                 <div class="container">
-                    <a href="#top" class="page-scroll btn-floating btn-large pink back-top waves-effect waves-light tt-animate btt" data-section="#top">
+                    <a href="#top" class="page-scroll btn-floating btn-large uab-gold back-top waves-effect waves-light tt-animate btt" data-section="#top">
                       <i class="material-icons"></i>
                     </a>
 
@@ -825,7 +829,7 @@
                 </div><!-- /.container -->
             </div><!-- /.primary-footer -->
 
-            <div class="secondary-footer brand-bg darken-2">
+            <div class="secondary-footer uab-green-secondary">
                 <div class="container">
                     <span class="copy-text">&nbsp;  Website By <a href="http://chrisroc.co">Chris Rocco</a></span>
                 </div><!-- /.container -->

@@ -1,0 +1,36 @@
+.uab-green {
+    background-color: #1E6B52 !important;
+}
+
+.uab-green-secondary {
+    background-color: #19553f !important;
+}
+
+.uab-gold {
+    background-color: #F4C300 !important;
+}
+
+.uab-pink {
+    background-color: #EB6851 !important;
+}
+
+.uab-light-green {
+    background-color: #A3D55D !important;
+}
+
+
+/*========================================*/
+/* OVERRIDES */
+/*========================================*/
+.vertical-tab .nav-tabs>li.active>a, .vertical-tab .nav-tabs>li.active>a:focus, .vertical-tab .nav-tabs>li.active>a:hover {
+    background-color: #F4C300 !important;
+}
+
+.vertical-tab .nav-tabs>li>a {
+    background-color: #A3D55D !important;
+}
+
+.logo-brand {
+    margin-top: 10px !important;
+}
+
