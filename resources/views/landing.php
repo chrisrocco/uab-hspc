@@ -548,9 +548,11 @@
                   <!--<p class="white-text width-60 mb-30" style="font-size: 20px">
                       Up for grabs will be <b>5</b> individual prizes, <b>2</b> team prizes, and <b>Grace Hopper awards</b> to female contestants!
                   </p>-->
-                  <p class="white-text width-60 mb-30" style="font-size: 20px">
-                      <em>To be Announced.</em>
-                  </p>
+                  <div class="white-text width-60 mb-30" style="font-size: 20px">
+                      <p>The winner and runner-ups in each category will win $400/$200/$100 respectively.</p>
+                      <p>The top three teams will win $300/$200/$100. A team is made up form the best three finishers of each school in the main competition.</p>
+                      <p>A number of non-cash rewards will also be available. Thanks to MIT Press, Pearsons, and Taylor and Francis for their generous donations.</p>
+                  </div>
               </div><!-- /.hero-intro -->
             </div><!-- /.container -->
         </section>
